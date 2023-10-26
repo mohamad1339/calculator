@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.calculator{
+    width: 270px;height: 430px;
+    background-color: rgb(52, 45, 75);margin: 50px auto;
+display: flex;flex-direction: column;border-radius: 25px;
+}
+.resshow{
+    width: 100%;
+    height: 100px;
+    position: relative;
+    
+}
+#restext{
+    color: white;
+    font-size: 30px;
+    direction: ltr;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+}
+#clear{
+    width:120px ;
+    height: 60px;border-radius: 15px;
+    border-radius: none;background-color: rgb(203, 90, 101);font-size: 30px;
+}
+#clear:hover{
+    background-color: rgb(230, 42, 42);
+}
+.buttons{
+    width: 100%;
+    height: 100px;padding-left: 9px;
+}
+
+.btn{
+    width: 60px;background-color: aquamarine;
+    height: 60px;border-radius: 50%;font-size: 30px;
+}
+.elam{
+    width: 60px;background-color: aquamarine;
+    height: 60px;border-radius: 50%;font-size: 30px;
+}
+.btn:hover{
+    width: 60px;background-color: rgb(56, 173, 134);
+    height: 60px;border-radius: 50%;
+}
+.elam:hover{
+    width: 60px;background-color: rgb(56, 173, 134);
+    height: 60px;border-radius: 50%;
+}
+.number{
+    width: 60px;background-color: aquamarine;
+    height: 60px;border-radius: 50%;font-size: 30px;
+}
+.number:hover{
+    width: 60px;background-color: rgb(56, 173, 134);
+    height: 60px;border-radius: 50%;
+}
+.end{
+    width: 60px;background-color: aquamarine;
+    height: 60px;border-radius: 50%;font-size: 30px;
+}
+.end:hover{
+    width: 60px;background-color: rgb(56, 173, 134);
+    height: 60px;border-radius: 50%;
+}
+.elam1{
+    width: 60px;background-color: aquamarine;
+    height: 60px;border-radius: 50%;font-size: 30px;
+}
+.elam1:hover{
+    width: 60px;background-color: rgb(56, 173, 134);
+    height: 60px;border-radius: 50%;
+}
